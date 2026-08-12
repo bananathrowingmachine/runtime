@@ -1,15 +1,10 @@
 JPL Runtime Library
 ===================
 
-> Parent repo: <https://github.com/utah-cs4470-sp25/runtime>
-
 This repository contains the JPL runtime library (currently for the
-2026 edition of JPL). The JPL runtime provides a collection of
+2023 edition of JPL). The JPL runtime provides a collection of
 functions that JPL programs can use. It is written in standard C and
 is intended to be compiled by a standard C compiler (probably Clang).
-
-> [!IMPORTANT]
-> Make sure you are on the `linux` branch if you are compiling the runtime on linux!
 
 # Dependencies and Compiling
 
@@ -240,4 +235,3 @@ The `runtime.c` file contains all of the functions described above.
 
 The `pngstuff.c` contains the bulk of the PNG reading and writing
 code.
-
