@@ -13,10 +13,13 @@ typedef struct {
   rgba *data;
 } _a2_rgba;
 
-struct args {
+typedef struct {
   int64_t d0;
   int64_t *data;
-};
+} _a1_int64_t;
+
+typedef struct {
+} void_t;
 
 int main(int, char**);
 
