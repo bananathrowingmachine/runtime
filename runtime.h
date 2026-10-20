@@ -18,8 +18,9 @@ typedef struct {
   int64_t *data;
 } _a1_int64_t;
 
-typedef struct {
-} void_t;
+// typedef struct { } void_t;
+// NOT part of runtime.h because
+//   error: empty struct is a GNU extension [-Werror,-Wgnu-empty-struct]
 
 int main(int, char**);
 
